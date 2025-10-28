@@ -1,0 +1,402 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Koulen', sans-serif;
+}
+
+html {
+    background-image: url(../img/backmain.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-items: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FADE8B;
+}
+
+.cvass {
+    background-color: #A60524;
+    height: 130px;
+    display: flex;
+    font-size: 48px;
+    width: 1920px;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 30px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.cvass-ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    width: 300px;
+}
+
+.strelochka {
+    width: 30px;
+    height: 40px;
+    margin-top: 27px;
+}
+
+.korzinka {
+    width: 80px;
+    height: 80px;
+}
+
+.header input {
+    width: 770px;
+    height: 75px;
+    border-radius: 20px;
+    border: #390202 5px solid;
+    font-size: 40px;
+    font-family: 'Koulen', sans-serif;
+}
+
+.ava {
+    width: 105px;
+    height: 105px;
+}
+.slider {
+    overflow-y: hidden;
+}
+.scroller {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.slide {
+    display: flex;
+    padding: 0.5rem 1.25rem;
+    text-decoration: none;
+    color: white;
+}
+.slide:hover {
+    color: #FADE8B;
+    text-decoration: underline;
+    z-index: 10;
+    transition: all 0.3s;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+}
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 33px;
+}
+.dropdown-content a:hover {
+    background-color: #F06363;
+    transition: all 0.3s;
+    border-radius: 20px;
+    color: #FADE8B;
+    text-decoration: underline;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: #E7E7E7;
+}
+
+
+.main {
+    margin-top: 110px;
+}
+
+.main1 {
+    justify-items: center;
+    width: 100%;
+    border-bottom: #390202 5px solid;
+}
+
+.juhoon {
+    display: flex;
+    justify-content: center;
+    height: 787px;
+    width: 1700px; 
+    border-radius: 20px;
+    background-color: #95BC63;
+    background-image: url(/img/backgreen.png);
+    gap: 40px;
+    margin-bottom: 90px;
+}
+
+.juhoon img {
+    width: 657px;
+    height: 576px;
+    margin-top: 100px;
+}
+
+.juhoon p {
+    color: white;
+    font-size: 48px;
+    line-height: 70px;
+}
+
+.juhoon h2 {
+    color:#FADE8B;
+    font-size: 76px;
+    text-shadow: #390202 2px 2px;
+    margin-top: 15px;
+}
+
+.jh-text {
+    width: 855px;
+}
+
+.appleh2 {
+    color: #390202;
+    font-size: 96px;
+    height: 160px;
+    margin-bottom: 70px;
+    
+}
+
+.all-cards {
+    display: flex;
+    gap: 30px;
+    width: 1700px;
+    justify-content: center;
+}
+
+.card {
+    width: 410px;
+    height: 500px;
+    background-color: #95BC63;
+    background-image: url(/img/backgreen.png);
+    border-radius: 20px;
+}
+
+.card img {
+    margin-left: 25px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+.main-text {
+    color: white;
+    font-size: 48px;
+    height: 60px;
+    margin-left: 25px;
+}
+
+.text-two {
+    color: white;
+    font-size: 32px;
+    margin-left: 25px;
+}
+
+.cardeu {
+    justify-self: center;
+}
+
+.footer {
+    background-color: #A60524;
+    width: 1920px;
+    height: 180px;
+    color: white;
+    font-size: 48px;
+    align-content: center;
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    gap: 240px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.footer-ul {
+    list-style: none;
+    display: flex;
+    gap: 90px;
+}
+.footer-ul li {
+    padding: 35px;
+}
+
+.social {
+    gap: 60px;
+    align-content: center;
+}
+
+.footer li:hover {
+    cursor: pointer;
+    color: #FADE8B;
+    text-decoration: underline;
+    transition: all 0.3s;
+}
+
+@media (max-width:360px) {
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Koulen', sans-serif;
+}
+
+html {
+    background:linear-gradient(#FADE8B, white);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 2357px;
+}
+
+html, body, main {
+    width: 360px;
+}
+
+.main {
+    margin-top: 30px;
+}
+
+.cvass {
+    width: 360px;
+    height: 95px;
+    padding-top: 30px;
+    padding-right: 0px;
+    gap: 0px;
+}
+
+.cvass-ul {
+    visibility: hidden;
+    width: 0%;
+}
+
+.korzinka {
+    visibility: hidden;
+    width: 0%;
+}
+
+.strelochka {
+    visibility: hidden;
+    width: 0%;
+}
+
+.header input {
+    width: 140px;
+    height: 50px;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 5px;
+}
+
+input::placeholder {
+    color: white;
+}
+
+.ava {
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    margin-left: 250px;
+}
+
+.juhoon {
+    width: 320px;
+    height: 380px;
+    margin: 0px;
+    gap: 0px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.juhoon img {
+    visibility: hidden;
+    width: 0px;
+}
+.juhoon h2 {
+    font-size: 36px;
+    width: 300px;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+
+.jh-text {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+}
+
+.juhoon p {
+    font-size: 24px;
+    line-height: 30px;
+    height: 350px;
+    width: 300px;
+}
+
+.all-cards {
+    width: 35%;
+    display: list-item;
+    list-style: none;
+}
+
+.appleh2 {
+    line-height: 30px;
+    font-size: 36px;
+    margin-top: 30px;
+    width: 300px;
+    margin-left: 0px;
+    margin-bottom: 30px;
+    height: 36px;
+}
+
+.cardeu {
+    width: 330px;
+    margin-left: 30px;
+}
+
+.card {
+    margin-bottom: 30px;
+    width: 310px;
+    height: 360px;
+}
+
+.main-text {
+    font-size: 32px;
+    list-style: 32px;
+    height: 40px;
+}
+
+.text-two {
+    font-size: 20px;
+}
+
+.card img {
+    width: 260px;
+}
+
+.footer-ul {
+    visibility: hidden;
+    width: 0px;
+}
+
+.social img {
+    width: 52px;
+    height: 52px;
+    margin-top: 10px;
+}
+
+.footer {
+    gap: 0px;
+    width: 360px;
+    height: 70px;
+    border-radius: 0px;
+}
+
+}
